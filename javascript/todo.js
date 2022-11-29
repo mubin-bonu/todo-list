@@ -19,8 +19,8 @@ var list = document.querySelector("ul");
 list.addEventListener(
     "click",
     function (ev) {
-        if (ev.target.tagName ==="li") {
-            ev.target.classlist.toogle("checked");
+        if (ev.target.tagName === "LI") {
+            ev.target.classList.toggle("checked");
         }
     },
     false
